@@ -1,30 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cálculo de Média de Notas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
- <div class="container" >
+    <div class="container">
+    <h1>Calculadora de Média de Notas</h1>
 
-<h1>calculadora de medias de nota</h1>
+    <form id="formulario">
+        <label for="nota 1" class="label">Nota do 1° Trimestre:</label>
+        <input type="number" id="nota 1" class="input" required>
 
-<form id="formulario">
-<label for="nota1" class="label">Nota do 1:</label>
-<input type="number" id="nota1" class="input" required>
+        <label for="nota 2" class="label">Nota do 2° Trimestre:</label>
+        <input type="number" id="nota2" class="input" required>
 
-<label for="nota2"class="label">nota do 2 trimestre:</label>
-<input type="number" id="nota2" class="input" required>
+        <label for="nota3" clas="label">Nota do 3° Trimestre:</label>
+        <input type="number" id="nota3" class="input" required>
 
-<label for="nota3" class="label">nota do 3 trimestre:</label>
-<input type="number"id="nota3"class="input" required>
-<button type="submit" id="calcular" class="input" required></button>
-</form>
-<div id="resultado" class="resultado"></div>
-<!--resultado sera exibido aqui-->
-   </div>
+        <button type="submit" id="calcular" class="botao">Calcular</button>
+    </form>
+    
+    <div id="resultado" class="resultado">
+        <!-- Resultado será exibido aqui -->
+    </div>
  </div>
- <script scr="script.js"></script>
+
+ <script src="script.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Média de Notas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <h1>Calculadora de Média de Notas</h1>
+
+    <form id="formulario">
+        <label for="nota 1" class="label">Nota do 1° Trimestre:</label>
+        <input type="number" id="nota 1" class="input" required>
+
+        <label for="nota 2" class="label">Nota do 2° Trimestre:</label>
+        <input type="number" id="nota2" class="input" required>
+
+        <label for="nota3" clas="label">Nota do 3° Trimestre:</label>
+        <input type="number" id="nota3" class="input" required>
+
+        <button type="submit" id="calcular" class="botao">Calcular</button>
+    </form>
+    
+    <div id="resultado" class="resultado">
+        <!-- Resultado será exibido aqui -->
+    </div>
+ </div>
+
+ <script src="script.js"></script>
 </body>
 </html>
